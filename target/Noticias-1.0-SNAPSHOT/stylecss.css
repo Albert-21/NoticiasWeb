@@ -1,0 +1,179 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 26/07/2022, 02:32:43 PM
+    Author     : Alberto
+*/
+.card-container.card {
+    max-width: 550px;
+    height: 550px;
+    padding: 40px 40px;
+}
+
+.btn {
+    padding: 10px;
+    font-weight: 700;
+    height: 36px;
+}
+
+.checkbox{
+    padding: 10px;
+}
+
+.card {
+    background-color: #F7F7F7;
+    padding: 20px 25px 30px;
+    margin: 0 auto 25px;
+    margin-top: 50px;
+    border-radius: 6px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+.profile-img-card {
+    width: 175px;
+    height: 175px;
+    margin: 0 auto 10px;
+    display: block;
+    border-radius: 50%;
+}
+
+.profile-name-card {
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 15px 0 0;
+    min-height: 1em;
+}
+
+.form-signin #inputEmail,
+.form-signin #inputPassword {
+    direction: ltr;
+    height: 45px;
+    font-size: 1rem;
+}
+
+.form-signin input[type=email],
+.form-signin input[type=password],
+.form-signin input[type=text],
+.form-signin button {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    z-index: 1;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.btn.btn-signin {
+    background-color: #307BE1;
+    padding: 0px;
+    font-weight: 500;
+    font-size: 1.1rem;
+    height: 45px;
+    border-radius: 6px;
+    transition: all 0.218s;
+}
+
+@media screen and (max-width: 800px) {
+    .card-container.card {
+        max-width: 460px;
+        height: 460px;
+        padding: 30px 30px;
+    }
+
+    .btn {
+        height: 30px;
+    }
+
+    .checkbox{
+        padding: 10px;
+    }
+
+    .card {
+        background-color: #F7F7F7;
+        padding: 15px 20px 25px;
+        margin: 0 auto 20px;
+        margin-top: 40px;
+        border-radius: 6px;
+        box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.25);
+    }
+
+    .profile-img-card {
+        width: 155px;
+        height: 155px;
+        margin: 0 auto 10px;
+    }
+
+    .profile-name-card {
+        font-size: 1rem;
+        margin: 15px 0 0;
+        min-height: 1em;
+    }
+
+    .form-signin #inputEmail,
+    .form-signin #inputPassword {
+        direction: ltr;
+        height: 40px;
+        font-size: 1rem;
+    }
+
+    .btn.btn-signin {
+        font-size: 1rem;
+        height: 35px;
+        border-radius: 4px;
+    }
+}
+
+@media all and (max-width: 555px) {
+    .login-base{
+        margin-top: 50%;
+    }
+    .card-container.card {
+        max-width: 380px;
+        height: 380px;
+        padding: 25px 25px;
+    }
+
+    .btn {
+        height: 25px;
+    }
+
+    .checkbox{
+        padding: 5px;
+    }
+
+    .card {
+        background-color: #F7F7F7;
+        padding: 10px 15px 20px;
+        margin: 0 auto 15px;
+        margin-top: 25px;
+        box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.25);
+    }
+
+    .profile-img-card {
+        width: 120px;
+        height: 120px;
+        margin: 0 auto 5px;
+    }
+
+    .profile-name-card {
+        font-size: .8rem;
+        margin: 5px 0 0;
+        min-height: .8em;
+    }
+
+    .form-signin #inputEmail,
+    .form-signin #inputPassword {
+        direction: ltr;
+        height: 25px;
+        font-size: .7rem;
+    }
+
+    .btn.btn-signin {
+        font-size: .9rem;
+        height: 30px;
+        border-radius: 4px;
+    }
+}
